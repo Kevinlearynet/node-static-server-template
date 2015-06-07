@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"name": "ROOT",
+			"path": "./"
+		},
+	{
+			"name": "PUBLIC",
+			"path": "./public"
+		}
+	]
+}

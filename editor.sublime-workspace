@@ -1,0 +1,1276 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"profile",
+				"profileUrl"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"is_arh",
+				"is_archive"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"is_page",
+				"is_page_template"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"get_templ",
+				"get_template_part"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text-gr",
+				"text-medium-gray"
+			],
+			[
+				"get_style",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"hash",
+				"hashchange"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"ob_get",
+				"ob_get_clean"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"get_stylesheet_dir",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"carousel",
+				"carouselTimeout"
+			],
+			[
+				"is_main",
+				"is_main_query"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"san",
+				"sanitize_term"
+			],
+			[
+				"delte",
+				"delete_transient"
+			],
+			[
+				"wp_remote",
+				"wp_remote_retrieve_body"
+			],
+			[
+				"ob_get_",
+				"ob_get_contents"
+			],
+			[
+				"get_the",
+				"get_the_content"
+			],
+			[
+				"curr",
+				"curriculum_categories"
+			],
+			[
+				"get_ter",
+				"get_terms"
+			],
+			[
+				"wp_get_att",
+				"wp_get_attachment_image_src"
+			],
+			[
+				"wp_get_atta",
+				"wp_get_attachment_url"
+			],
+			[
+				"print",
+				"printarr	printarr"
+			],
+			[
+				"WP_Query",
+				"WP_Query	New WP_Query Class"
+			],
+			[
+				"wp_reset",
+				"wp_reset_query"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"get_err",
+				"get_error_message  (function)"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"sant",
+				"sanitize_title"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"fir",
+				"first-child"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"wp_deg",
+				"wp_deregister_style"
+			],
+			[
+				"class",
+				"class_exists"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background-attachment"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"border-right",
+				"border-right-width"
+			],
+			[
+				"border-left",
+				"border-left-width"
+			],
+			[
+				"get_stylesheet",
+				"get_stylesheet_directory_uri"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/theme.less",
+			"settings":
+			{
+				"buffer_size": 31086,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-home.php",
+			"settings":
+			{
+				"buffer_size": 2084,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/js/theme.js",
+			"settings":
+			{
+				"buffer_size": 11655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/functions.php",
+			"settings":
+			{
+				"buffer_size": 14705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kevinleary/Sites/amzn-reviews/routine.js",
+			"settings":
+			{
+				"buffer_size": 4419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kevinleary/Sites/amzn-reviews/public/index.html",
+			"settings":
+			{
+				"buffer_size": 2474,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kevinleary/Sites/amzn-reviews/public/output/reviewer-report-B00TSSDLGK.json",
+			"settings":
+			{
+				"buffer_size": 43029,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kevinleary/Sites/amzn-reviews/server.js",
+			"settings":
+			{
+				"buffer_size": 483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-team.php",
+			"settings":
+			{
+				"buffer_size": 1335,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markd",
+				"Markdown Preview: Github Flavored Markdown: Copy to Clipboard"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"tidy",
+				"Tidy PHP"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"PHP Code Sniffer: ",
+				"PHP Code Sniffer: Turn Execute On Save On"
+			],
+			[
+				"Snippet: php",
+				"Snippet: <?php … ?>"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <?php echo $this->… ?>"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kevinleary/Sites/amzn-reviews",
+		"/Users/kevinleary/Sites/amzn-reviews/public",
+		"/Users/kevinleary/Sites/amzn-reviews/public/output"
+	],
+	"file_history":
+	[
+		"/Users/kevinleary/Sites/amzn-reviews/public/index.html",
+		"/Users/kevinleary/Sites/amzn-reviews/public/output/reviewer-report-B00TSSDLGK.json",
+		"/Users/kevinleary/Sites/amzn-reviews/package.json",
+		"/Users/kevinleary/Sites/amzn-reviews/output/sample.js",
+		"/Users/kevinleary/Dropbox/Work/Projects/amazon-review-scraper.sublime-project",
+		"/Users/kevinleary/Sites/amzn-reviews/report-viewer.html",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/inc/api.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/library.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/responsive.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/js/theme.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/header.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-projects.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/.gitignore",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/inc/partial-content.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/404.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/functions.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/footer.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-events.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/inc/post-types.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/single.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/inc/searchform.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-team.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/archive-event.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/inc/template-tags.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-home.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/plugins.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/search.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/page.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/lib/breakpoints.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-full.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/editor.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/content-search.php",
+		"/Users/kevinleary/.bash_aliases",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/dartmouthprc.sublime-project",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/inc/extras.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/content-none.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/theme.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/flexslider.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/js/customizer.js",
+		"/Users/kevinleary/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/Users/kevinleary/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/style.css",
+		"/Users/kevinleary/Sites/clients-vvv/www/vvv-hosts",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-config.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/.git/config",
+		"/private/etc/hosts",
+		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/bower.json",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/header.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/js/theme.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/less/plugins.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/functions.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/bostonbasilica/page-our-staff.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/bostonbasilica/page-parish-groups.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/bostonbasilica/page-music.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/less/custom-flexslider.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/less/responsive.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/page.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/bostonbasilica/style.css",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/bostonbasilica/index.php",
+		"/Users/kevinleary/Desktop/blog.md",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/siteorigin-panels/siteorigin-panels.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/siteorigin-panels/widgets/basic.php",
+		"/Users/kevinleary/Dropbox/Work/Projects/missiongrammar.sublime-project",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/less/library.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/template-full.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/so-widgets-bundle/widgets/so-cta-widget/css/style.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/widgets/rawembed/rawembed.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/less/theme.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/inc/extras.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/footer.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/siteorigin-panels/widgets/widgets.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/siteorigin-panels/widgets/widgets/list/list.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/siteorigin-panels/inc/widgets.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/siteorigin-panels/inc/default-styles.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/inc/post-types.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/template-home.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/lib/rivets/dist/rivets.bundled.min.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/js/customizer.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/bower.json",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/lib/font-awesome/less/variables.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/dist/theme.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/inc/custom-header.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/less/admin.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/inc/customizer.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/.bowerrc",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/less/editor.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/googleanalytics/googleanalytics.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/content-single.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/content-search.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/content-none.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/content.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/js/theme.min.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/assets/less/theme.scss",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/functions.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/header.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/bower.json",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/front-page.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/footer.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/style.css",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet/style.css",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/assets/theme.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/assets/theme.scss",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/assets/lib/smooth-scroll/.bower.json",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/dist/theme.min.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/.bowerrc",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/js/global.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/includes/acf.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/less/style.less",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/less/plugins.less",
+		"/Users/kevinleary/Dropbox/Work/Projects/citizens.sublime-project",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/functions.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/includes/jobs-feed.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/debug.log",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-config.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/plugins/query-monitor/collectors/authentication.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/plugins/wordpress-seo/admin/class-yoast-notification-center.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/plugins/google-analytics-for-wordpress/includes/class-autoload.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/template-landing-2015.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/advanced-cache.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/w3-total-cache-config-citizenschools.org.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/w3-total-cache-config.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/mu-plugins/developer.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/views/template-what-we-do.twig",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/template-approach.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/views/template-approach.twig",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/includes/nav.php",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/js/global.min.js",
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/views/carousel.twig"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 103.0,
+		"where_history":
+		[
+			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet",
+			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet,*.less",
+			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet",
+			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet,*.less",
+			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet",
+			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet,*.less",
+			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/bostonbasilica",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/bostonbasilica",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/siteorigin-panels",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/plugins/siteorigin-widgets",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet,*.lerss",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/kevinlearynet",
+			"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/plugins/wordpress-seo,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/,*.less",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.js",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.less",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.js",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.pjp",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.twig",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.less",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.less",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools",
+			"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/plugins/taxonomy-images",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/,*.php",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/,*.php",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/,*.php",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/,*.less",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/,*.php",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/toolkit/,*.php",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/,*.php",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/toolkit,*.php",
+			"~/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools,*.less",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools,*.less",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools",
+			"~/Dropbox/Work/Sites/citizenschools.dev/wp-content/themes/citizenschools,*.php",
+			"~/Dropbox/Work/Sites/www.xtium.dev/,*.php",
+			"~/Dropbox/Work/Sites/www.xtium.dev/wp-content/plugins/ContentLEAD-ContentLead-WP-Plugin-617bd18,*.php",
+			"~/Dropbox/Work/Sites/www.xtium.dev/wp-content/plugins/,*.php",
+			"~/Dropbox/Work/Sites/www.xtium.dev/wp-content/themes/xtium,*.php",
+			"~/Dropbox/Work/Sites/www.xtium.dev,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins/wp-ffpc",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins/wp-ffpc",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.less,*.php,*.js",
+			"~/Dropbox/Work/Sites/openviewvc.dev",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins/openview-functionality",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.less",
+			"~/Dropbox/Work/Sites/openviewvc.dev",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins/wp-ffpc",
+			"~/Dropbox/Work/Sites/openviewvc.dev/*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins/wp-ffpc",
+			"~/Dropbox/Work/Sites/openviewvc.dev/,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins/,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewblog",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins,*.php",
+			"~/Vagrant/config",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013,*.less,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins/openview-functionality",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewlabs-2012",
+			"~/Dropbox/Work/Sites/openviewvc.dev/",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013/partials",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev",
+			"~/Dropbox/Work/Sites/openviewvc.dev/wp-includes",
+			"",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewblog",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/plugins/openview-functionality",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewblog",
+			"<open files>",
+			"",
+			"<open files>",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013,*.less",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013,*.php,*.less",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013",
+			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev,*.php",
+			"~/Dropbox/Work/Sites/openviewvc.dev",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"asin",
+			"http:",
+			"<strong>",
+			"email",
+			"item.author",
+			"\\n",
+			"\\n\"",
+			"\\n\",",
+			"\\n\",\n	\"",
+			"email",
+			"is.not",
+			"obj",
+			"email",
+			"is.existy",
+			"// find ",
+			"author",
+			"review.author",
+			"profileUrl",
+			"author",
+			"email",
+			"review",
+			"output",
+			"data",
+			"json",
+			"static",
+			"port",
+			"),",
+			"	",
+			"file",
+			"getProfileData",
+			"\"",
+			"email",
+			"getAllReviews",
+			"requestReviews",
+			"website",
+			"email",
+			"end",
+			"browser",
+			"url",
+			"profile",
+			"getProfileData",
+			"review.",
+			"$website",
+			"$email",
+			"requestReviews",
+			"requestProfile",
+			"requestSource",
+			"profileURL",
+			"profileUrl",
+			"next",
+			"cb",
+			"parseReviews",
+			");",
+			"new Array(",
+			"jsonArray1",
+			"console.log",
+			"reviews-content",
+			"parseReviews",
+			"additionalReviews",
+			"parseReviews",
+			"reviews",
+			"parseReviews",
+			"requestSource",
+			"parseReviews",
+			"i",
+			"requestSource",
+			"cb",
+			"TIMEOUT_RETRY_INTERVAL",
+			"REQUEST_URL",
+			"ASIN",
+			"kevinlearynet_research_list",
+			"researchAreas",
+			"sub-menu",
+			"col-",
+			"col",
+			"columns",
+			"h1 {",
+			"font-size: 14px",
+			".table-bordered",
+			"rivets",
+			"kevinlearynet_projects_json",
+			"$_POST",
+			"add_feed",
+			"active",
+			"api.php",
+			"add_feed",
+			"endpoint",
+			"themeData",
+			"rv",
+			"rivets",
+			"filters",
+			"data-filters",
+			"name",
+			"kevinlearynet_team_list",
+			"team",
+			"console",
+			"debug",
+			"sidebar",
+			"post_title",
+			"loading",
+			"stickyItems",
+			"menuOffset",
+			"didScroll",
+			"viewport",
+			"scroll",
+			"search",
+			"darken",
+			"utility",
+			"didScroll",
+			"transition",
+			"current-menu-parent",
+			".open",
+			":active",
+			"darken",
+			"menu-main-menu-container",
+			".sub-menu[style]",
+			"fixed",
+			".menu-primary",
+			"fixed",
+			"utility",
+			"padding-left: 50px",
+			"menu-primary",
+			".fixed-menu",
+			"fixed",
+			"menu-primary",
+			"0 50px",
+			"debug",
+			"fixed"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<li rv-each-item=\"page.submenu.items\" rv-class=\"item.class\">",
+			"@breakpoint-md",
+			"@breakpoint-xs",
+			"@sans-serif",
+			"@primary",
+			"@success",
+			"@warning",
+			"@text-body",
+			"@blue",
+			"$context['content'] = apply_filters( 'the_content', get_the_content() );",
+			"$context );",
+			"_toolkit",
+			"http://i0.wp.com/openviewpartners.com/",
+			" => ",
+			"http://cdn.openviewpartners.com/assets/img/",
+			".png\")",
+			"\")",
+			"\") ",
+			"\"@",
+			"@{cdn}/assets/img/",
+			"$_REQUEST",
+			"@primary-text",
+			"-0.5px",
+			"<i class=\"fa fa-",
+			"0.35",
+			"rgba(209,235,0,0.35)",
+			"80%",
+			"@spacing",
+			"$site_pages",
+			"<pre><code class=\\\"language-php\\\">"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/theme.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1718,
+								1731
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 646.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/js/theme.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8575.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/kevinleary/Sites/amzn-reviews/routine.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/kevinleary/Sites/amzn-reviews/public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2097,
+								2097
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1438.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/kevinleary/Sites/amzn-reviews/public/output/reviewer-report-B00TSSDLGK.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5220,
+								5227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/kevinleary/Sites/amzn-reviews/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								466,
+								466
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/template-team.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 294.0
+	},
+	"pinned_build_system": "",
+	"project": "editor.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Root/.gitmodules"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
