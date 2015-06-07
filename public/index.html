@@ -1,1 +1,148 @@
-<h1>All good.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Segment UI Prototype</title>
+	<link rel="stylesheet" href="/dist/style.css">
+</head>
+<body>
+<div class="container">
+	<h1>Segment Builder</h1>
+	<p class="lead">Create an manage custom segment rules for your audience(s).</p>
+		
+	<form id="segment-builder">
+
+		<!-- NEW "OR" RULE -->
+		<div class="add-ruleset">
+			<div class="bar">
+				<span class="button add">
+					<button data-segment-action="add" data-segment-operator="or">
+						<i class="ion-android-add-circle"></i>
+						<em>New Rule</em>
+					</button>
+				</span>
+			</div>
+		</div>
+
+		<!-- TEMPLATE: New "or" ruleset -->
+		<div style="display:none" id="ruleset-clone-or" class="ruleset or">
+			<div class="sep"><span>or</span></div>
+
+			<div class="bar">
+				<span class="field">
+					<select name="criteria">
+						<option>Rule criteria&hellip;</option>
+						<option value="source">Current page source</option>
+						<option value="uri">URL</option>
+					</select>
+				</span>
+
+				<span class="field">
+					<select class="small" name="" data-conditional-trigger>
+						<option value="contains">contains</option>
+						<option value="exactly">exactly</option>
+						<option value="regexp">RegExp</option>
+					</select>
+				</span>
+
+				<span class="field">
+					<input type="text" placeholder="Enter value" value="">
+				</span>
+
+				<span class="field" data-display-if="regexp" style="display:none">
+					<select class="small" name="">
+						<option value="">in selector</option>
+					</select>
+				</span>
+
+				<span class="field" data-display-if="regexp" style="display:none"><input type="text"></span>
+
+				<span class="button add">
+					<button data-segment-action="add" data-segment-operator="and">
+						<i class="ion-android-add-circle"></i>
+						<em>and</em>
+					</button>
+				</span>
+			</div>
+
+			<span class="button remove">
+				<button data-segment-action="remove">
+					<i class="ion-android-remove-circle"></i>
+				</button>
+			</span>
+		</div>
+
+		<!-- TEMPLATE: New "and" ruleset -->
+		<div style="display:none" id="ruleset-clone-and" class="ruleset and">
+			<div class="sep"><span><i class="ion-funnel"></i> and</span></div>
+
+			<div class="bar">
+				<span class="field">
+					<select name="criteria">
+						<option>Rule criteria&hellip;</option>
+						<option value="source">Current page source</option>
+						<option value="uri">URL</option>
+					</select>
+				</span>
+
+				<span class="field">
+					<select class="small" name="" data-conditional-trigger>
+						<option value="contains">contains</option>
+						<option value="exactly">exactly</option>
+						<option value="regexp">RegExp</option>
+					</select>
+				</span>
+
+				<span class="field">
+					<input type="text" placeholder="Enter value" value="">
+				</span>
+
+				<span class="field" data-display-if="regexp" style="display:none">
+					<select class="small" name="">
+						<option value="">in selector</option>
+					</select>
+				</span>
+
+				<span class="field" data-display-if="regexp" style="display:none"><input type="text"></span>
+			</div>
+
+			<span class="button remove">
+				<button data-segment-action="remove">
+					<i class="ion-android-remove-circle"></i>
+				</button>
+			</span>
+		</div>
+
+	</form>
+
+	<h2>Save Segment</h2>
+	<form id="save-segment">
+		<p><input type="text" placeholder="Name your segment"></p>
+		<p>
+			<label>Status:</label>
+			<span class="option">
+				<input type="checkbox">
+				<label class="inline">Active</label>
+
+				<input type="checkbox">
+				<label class="inline">Backend</label>
+
+				<input type="checkbox">
+				<label class="inline">Dashboard Display</label>
+
+				<input type="checkbox">
+				<label class="inline">Home Display</label>
+			</span>
+		</p>
+		<p class="submit">
+			<input type="submit" value="Save &amp; Add More" class="btn-primary">
+			<input type="submit" value="Save &amp; Continue" class="btn-secondary">
+		</p>
+	</form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/dist/interaction.js"></script>
+
+</body>
+</html>

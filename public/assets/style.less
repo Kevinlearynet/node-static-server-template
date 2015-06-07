@@ -1,0 +1,323 @@
+/**
+ * Segment UI prototype
+ */
+
+@import url('library.less');
+@import url('//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@success: #77b003;
+@fail: #d73809;
+@light-bg: #f5f5f5;
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	width: 980px;
+	margin: 50px auto;
+}
+
+// titles
+h1 {
+	margin: 0;
+}
+
+.lead {
+	font-size: 18px;
+	opacity: 0.5;
+	margin: 5px 0 0;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 40px 0 15px;
+}
+
+// segment builder form
+#segment-builder {
+	margin-top: 30px;
+}
+
+// "or" ruleset row
+.ruleset {
+	position: relative;
+	> .button {
+		position: absolute;
+		right: -35px;
+		top: 28px;
+	}
+	.bar {
+		padding: 10px 15px;
+		background: @light-bg;
+		.clearfix();
+		.border-radius( 4px );
+	}
+}
+
+// no separator needed for first ruleset
+#segment-builder > .ruleset:first-child {
+	.sep {
+		display: none;
+	}
+	> .button {
+		top: 10px;
+	}
+}
+
+// "and" ruleset row
+.ruleset.and {
+	margin: 6px 0 0 30px;
+	> .button {
+		top: 32px;
+		right: 15px;
+	}
+	.sep {
+		margin: 0 0 5px;
+		height: 16px;
+		background-color: transparent;
+		text-align: left;
+		span {
+			padding: 0;
+		}
+		i {
+			margin-right: 4px;
+			font-size: 14px;
+		}
+	}
+	.bar {
+		padding: 10px 15px;
+	}
+}
+
+// "or" add new row
+.add-ruleset {
+	text-align: center;
+	margin: 20px 0 0;
+	.bar {
+		background-color: transparent;
+		border: 3px dashed #eee;
+		padding: 10px 15px 5px;
+	}
+	.button {
+		float: none;
+		display: inline-block;
+		em {
+			font-size: 14px;
+		}
+	}
+}
+
+// inline form field
+.field {
+	display: inline-block;
+	+ .field {
+		margin-left: 15px;
+	}
+}
+
+// separator/divider
+.sep {
+	@size: 8px;
+	height: @size;
+	background: #eee;
+	text-align: center;
+	font-size: 12px;
+	line-height: @size;
+	text-transform: uppercase;
+	color: #ccc;
+	margin: 10px 0;
+	.border-radius( 3px );
+	span {
+		background: white;
+		display: inline-block;
+		padding: 0 8px 0 6px;
+		font-weight: bold;
+		color: #aaa;
+	}
+}
+
+// save segment form
+#save-segment {
+	p {
+		margin: 0;
+		font-size: 13px;
+		+ p {
+			margin-top: 15px;
+		}
+	}
+	label {
+		margin-right: 15px;
+		&.inline {
+			color: #aaa;
+		}
+	}
+	input[type="text"] {
+		width: 300px;
+	}
+	input[type="checkbox"] {
+		margin-right: 5px;
+	}
+	.btn-primary {
+		background-color: @success;
+	}
+	.btn-secondary {
+		background-color: #ccc;
+	}
+}
+
+// forms elements
+input, select, textarea {
+	margin: 0; 
+	padding: 0; 
+	font-size: 13px; 
+	outline: none;
+	font-family: inherit;	
+	background-color: white;
+	.box-sizing( border-box );
+}
+
+input[type="text"], textarea, select, input[type="file"] {
+	width:12em;
+	.border-radius( 4px );
+	border:solid 1px #ccc;
+	padding:.4em
+}
+
+select, input[type="submit"], button, input[type="button"], input[type="file"]:after {
+	.box-shadow( 0 1px 3px rgba(0,0,0,0.2) );
+}
+
+select {
+	height: 26px;
+	vertical-align: 1px;
+	&.small {
+		width: 8em;
+	}
+}
+
+input[type="text"], textarea, input[type="file"] {
+	background-color: #fff;
+	.box-shadow( inset 0 1px 2px rgba(0,0,0,0.1) );
+}
+
+textarea {
+	width:100%;
+	height:10em
+}
+
+input[type="file"] {
+	position:relative;
+	-webkit-appearance:none;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	width:40%;
+	padding:0
+}
+
+input[type=file]::-webkit-file-upload-button {
+	width:0;
+	padding:0;
+	margin:0;
+	-webkit-appearance:none;
+	border:none
+	&:after {
+		content:'Upload File';
+		margin:0 0 0 .5em;
+		display:inline-block;
+		left:100%;
+		position:relative;
+		padding:.3em .5em;
+		border:solid 1px #ccc!important;
+		-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.2);
+		box-shadow:0 1px 3px rgba(0,0,0,0.2);
+		border-radius:4px
+	}
+}
+
+input[type="file"]:active:after {
+	box-shadow:none
+}
+
+input[type="radio"], input[type="checkbox"] {
+	
+}
+
+.button {
+	float: right;
+	height: 27px;
+	button {
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		.clearfix();
+		em, i {
+			line-height: 27px;
+			float: left;
+		}
+		em {
+			font-style: normal;
+			margin-left: 5px;
+		}
+		i {
+			font-size: 150%;
+		}
+	}
+	&.add button {
+		color: @success;
+		i {
+			color: @success;
+		}
+	}
+	&.remove button {
+		color: @fail;
+		i {
+			color: @fail;
+		}
+	}
+}
+
+input[type="submit"], button, input[type="button"] {
+	padding: 3px 7px 3px 5px;
+	line-height: 1em;
+	cursor: pointer;
+	border-radius: 4px;
+	color: #000;
+	font-weight: 700;
+	font-size: inherit;
+	border: solid 1px #ccc;
+	.box-shadow( none );
+	.border-radius( 15px );
+	background-position: center bottom;
+	&:active,
+	&:focus {
+		.box-shadow( 0 );
+		outline: none;
+	}
+	i, em {
+		display: inline-block;
+	}
+	em {
+		text-transform: uppercase;
+		font-style: normal;
+		font-size: 12px;
+		line-height: 12px;
+		vertical-align: 1px;
+	}
+}
+
+.submit {
+	margin: 30px 0 0;
+	input[type="submit"] {
+		padding: 7px 12px;
+		border: none;
+		color: white;
+		+ input[type="submit"] {
+			margin-left: 10px;
+		}
+	}
+}
