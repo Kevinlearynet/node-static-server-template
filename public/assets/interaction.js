@@ -32,7 +32,11 @@
 			e.preventDefault();
 
 			var $target = $(this).parents('.ruleset');
-			$target.fadeOut(transTime);
+			var id = $target.data('id');
+
+			$target.add('[data-parent="' + id + '"]').fadeOut(transTime, function () {
+				$(this).remove();
+			});
 		});
 	}
 
@@ -45,12 +49,23 @@
 			var operator = $(this).data('segment-operator');
 			var $target = $(this).parents('.ruleset, .add-ruleset');
 			var $clone = $('#ruleset-clone-' + operator).clone().removeAttr('id').addClass('cloned');
+			var id;
 
-			if (operator === 'or')
+			if (operator === 'or') {
+				id = $('.ruleset.or').size();
+				$clone.attr('data-id', id);
 				$target.before($clone);
+			}
 
-			if (operator === 'and')
+			if (operator === 'and') {
+				var parent = $target.data('id');
+				var child = $('.ruleset.and[data-parent="' + parent + '"]').size() + 1;
+				id = parent + '_' + child;
+				$clone
+					.attr('data-id', id)
+					.attr('data-parent', parent);
 				$target.after($clone);
+			}
 
 			$('.ruleset.cloned').fadeIn(transTime).removeClass('cloned');
 		});
