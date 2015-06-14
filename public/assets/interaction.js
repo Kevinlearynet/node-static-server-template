@@ -3,72 +3,103 @@
  */
 'use strict';
 
-(function ($) {
+(function ($, rv) {
 
 	// options
-	var transTime = 150; // animation transitions duration
+	var $parent = $('#segment-builder');
 
-	// conditional criteria fields
-	var $conditionalTrigger = $('[data-conditional-trigger]');
-	if ($conditionalTrigger.length) {
-		$(document).on('change', $conditionalTrigger.selector, function (e) {
-			e.preventDefault();
-			var val = $(this).val();
-			var targets = '[data-display-if="' + val + '"]';
-			var $parent = $(this).parents('.ruleset');
-			var $specificConditionalFields = $parent.find(targets);
-
-			$parent.find('[data-display-if]').fadeOut(transTime);
-			if ($specificConditionalFields.length && $specificConditionalFields.not(':visible')) {
-				$specificConditionalFields.fadeIn(transTime);
+	// data binding
+	rv.configure({
+		adapter: {
+			observe: function (obj, keypath, callback) {
+				watch(obj, keypath, callback);
+			},
+			unobserve: function (obj, keypath, callback) {
+				unwatch(obj, keypath, callback);
+			},
+			get: function (obj, keypath) {
+				return obj[keypath];
+			},
+			set: function (obj, keypath, value) {
+				obj[keypath] = value;
 			}
-		});
-	}
+		}
+	})
 
-	// remove rules
-	var $remove = $('[data-segment-action="remove"]');
-	if ($remove.length) {
-		$(document).on('click', $remove.selector, function (e) {
-			e.preventDefault();
-
-			var $target = $(this).parents('.ruleset');
-			var id = $target.data('id');
-
-			$target.add('[data-parent="' + id + '"]').fadeOut(transTime, function () {
-				$(this).remove();
-			});
-		});
-	}
-
-	// add rules
-	var $add = $('[data-segment-action="add"]');
-	if ($add.length) {
-		$(document).on('click', $add.selector, function (e) {
-			e.preventDefault();
-
-			var operator = $(this).data('segment-operator');
-			var $target = $(this).parents('.ruleset, .add-ruleset');
-			var $clone = $('#ruleset-clone-' + operator).clone().removeAttr('id').addClass('cloned');
-			var id;
-
-			if (operator === 'or') {
-				id = $('.ruleset.or').size();
-				$clone.attr('data-id', id);
-				$target.before($clone);
+	var data = {
+		matchTypeAny: true,
+		matchTypeAll: false,
+		rules: [],
+		formClass: 'ready',
+		fields: {
+			ruleType: [{
+				name: 'Advanced',
+				options: [{
+					value: 'JavascriptFn',
+					label: 'Evaluate Javascript'
+				}]
+			}, {
+				name: 'Content Engagement',
+				options: [{
+					value: 'PageDepth',
+					label: 'Page Depth'
+				}, {
+					value: 'TimeOnPage',
+					label: 'Time on page'
+				}]
+			}]
+		},
+		handlers: {
+			addParent: function (e, scope) {
+				e.preventDefault();
+				scope.data.rules.push({
+					type: 'parent',
+					id: data.rules.length,
+					operator: (data.matchTypeAny) ? 'or' : 'and',
+					children: []
+				});
+			},
+			removeParent: function (e, scope) {
+				e.preventDefault();
+				scope.data.rules.splice(scope.index, 1);
+			},
+			addChild: function (e, scope) {
+				e.preventDefault();
+				scope.rule.children.push({
+					type: 'child',
+					operator: (data.matchTypeAny) ? 'or' : 'and'
+				});
+			},
+			removeChild: function (e, scope) {
+				e.preventDefault();
+				scope.data.rules[scope.rule.id].children.splice(scope.index, 1);
 			}
+		}
+	};
 
-			if (operator === 'and') {
-				var parent = $target.data('id');
-				var child = $('.ruleset.and[data-parent="' + parent + '"]').size() + 1;
-				id = parent + '_' + child;
-				$clone
-					.attr('data-id', id)
-					.attr('data-parent', parent);
-				$target.after($clone);
-			}
+	// any/all switch field
+	$('#any-all', $parent).switchButton({
+		on_label: 'all',
+		off_label: 'any',
+		width: 50,
+		height: 20,
+		button_width: 25
+	}).on('change', function () {
+		var val = (!$(this).is(':checked')) ? 'all' : 'any';
 
-			$('.ruleset.cloned').fadeIn(transTime).removeClass('cloned');
-		});
-	}
+		// logic: "all"
+		if (val === 'all') {
+			data.matchTypeAny = true;
+			data.matchTypeAll = false;
+		} else {
+			data.matchTypeAny = false;
+			data.matchTypeAll = true;
+		}
+	});
 
-})(window.jQuery);
+	// bind data to dom
+	rv.bind($parent, {
+		data: data
+	});
+
+})(window.jQuery, window.rivets);

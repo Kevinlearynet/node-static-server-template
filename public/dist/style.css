@@ -29,8 +29,65 @@ h2 {
   font-size: 18px;
   margin: 40px 0 15px;
 }
+.filter-row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.switch-wrapper {
+  float: right;
+}
+.switch-button-label {
+  float: left;
+  font-size: 12px;
+  line-height: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.switch-button-label.off {
+  color: #aaa;
+}
+.switch-button-label.on {
+  color: #77B003;
+}
+.switch-button-background {
+  float: left;
+  position: relative;
+  background: #ccc;
+  border: 1px solid #aaa;
+  margin: 0 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  cursor: pointer;
+}
+.switch-button-button {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  background: #FAFAFA;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
 #segment-builder {
   margin-top: 30px;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out 75ms;
+}
+#segment-builder.ready {
+  opacity: 1;
+}
+.ruleset-container > .ruleset {
+  margin-top: 10px;
+}
+.ruleset-container > .ruleset[data-id="0"] > .sep {
+  display: none;
 }
 .ruleset {
   position: relative;
@@ -38,7 +95,10 @@ h2 {
 .ruleset > .button {
   position: absolute;
   right: -35px;
-  top: 28px;
+  top: 27px;
+}
+.ruleset[data-id="0"] > .button {
+  top: 9px;
 }
 .ruleset .bar {
   padding: 10px 15px;
@@ -55,33 +115,27 @@ h2 {
   clear: both;
   height: 0;
 }
-#segment-builder > .ruleset:first-child .sep {
-  display: none;
-}
-#segment-builder > .ruleset:first-child > .button {
-  top: 10px;
-}
-.ruleset.and {
+.ruleset.child {
   margin: 6px 0 0 30px;
 }
-.ruleset.and > .button {
+.ruleset.child > .button {
   top: 32px;
   right: 15px;
 }
-.ruleset.and .sep {
+.ruleset.child .sep {
   margin: 0 0 5px;
   height: 16px;
   background-color: transparent;
   text-align: left;
 }
-.ruleset.and .sep span {
+.ruleset.child .sep span {
   padding: 0;
 }
-.ruleset.and .sep i {
+.ruleset.child .sep i {
   margin-right: 4px;
   font-size: 14px;
 }
-.ruleset.and .bar {
+.ruleset.child .bar {
   padding: 10px 15px;
 }
 .add-ruleset {
@@ -125,6 +179,9 @@ h2 {
   padding: 0 8px 0 6px;
   font-weight: bold;
   color: #aaa;
+}
+.sep em.operator {
+  font-style: normal;
 }
 #save-segment p {
   margin: 0;

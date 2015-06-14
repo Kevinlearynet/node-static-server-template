@@ -38,18 +38,73 @@ h2 {
 	margin: 40px 0 15px;
 }
 
+// switch form field
+.filter-row {
+	.clearfix();
+}
+.switch-wrapper {
+	float: right;
+}
+.switch-button-label {
+	float:left;
+	font-size: 12px;
+	line-height: 25px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	&.off {
+		color: #aaa;
+	}
+	&.on {
+		color: #77B003;
+	}
+}
+.switch-button-background {
+	float:left;
+	position:relative;
+	background: #ccc;
+	border: 1px solid #aaa;
+	margin: 0 10px;
+	.border-radius( 4px );
+	cursor:pointer
+}
+.switch-button-button {
+	position:absolute;
+	left:-1px;
+	top:-1px;
+	background:#FAFAFA;
+	border:1px solid #aaa;
+	.border-radius( 4px );
+}
+
 // segment builder form
 #segment-builder {
 	margin-top: 30px;
+	opacity: 0;
+	transition: opacity 150ms ease-in-out 75ms;
+	&.ready {
+		opacity: 1;
+	}
 }
 
-// "or" ruleset row
+// parent ruleset rows
+.ruleset-container > .ruleset {
+	margin-top: 10px;
+
+	// hide separator for first row
+	&[data-id="0"] {
+		> .sep { display: none; }
+	}
+}
 .ruleset {
 	position: relative;
 	> .button {
 		position: absolute;
 		right: -35px;
-		top: 28px;
+		top: 27px;
+	}
+	&[data-id="0"] > .button {
+		top: 9px;
 	}
 	.bar {
 		padding: 10px 15px;
@@ -59,18 +114,8 @@ h2 {
 	}
 }
 
-// no separator needed for first ruleset
-#segment-builder > .ruleset:first-child {
-	.sep {
-		display: none;
-	}
-	> .button {
-		top: 10px;
-	}
-}
-
-// "and" ruleset row
-.ruleset.and {
+// child ruleset rows
+.ruleset.child {
 	margin: 6px 0 0 30px;
 	> .button {
 		top: 32px;
@@ -138,6 +183,9 @@ h2 {
 		padding: 0 8px 0 6px;
 		font-weight: bold;
 		color: #aaa;
+	}
+	em.operator {
+		font-style: normal;
 	}
 }
 

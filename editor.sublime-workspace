@@ -311,7 +311,23 @@
 			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 4057,
+				"buffer_size": 4072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/interaction.js",
+			"settings":
+			{
+				"buffer_size": 1990,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/config.codekit",
+			"settings":
+			{
+				"buffer_size": 19028,
 				"line_ending": "Unix"
 			}
 		}
@@ -403,7 +419,11 @@
 	[
 		"/Users/kevinleary/Sites/prototypes.audience360.com",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/public",
-		"/Users/kevinleary/Sites/prototypes.audience360.com/public/.codekit-cache"
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/.codekit-cache",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/.codekit-cache",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets"
 	],
 	"file_history":
 	[
@@ -680,6 +700,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"header",
+			"var id",
+			"data-ruleset-id",
 			"$conditionalFields",
 			"$additionalFields",
 			"targetSelector",
@@ -804,10 +827,7 @@
 			"requestReviews",
 			"website",
 			"email",
-			"end",
-			"browser",
-			"url",
-			"profile"
+			"end"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -855,7 +875,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -864,23 +884,82 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4057,
+						"buffer_size": 4072,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2808,
-								2808
+								2108,
+								2119
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1169.0,
+						"translation.y": 984.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/assets/interaction.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/config.codekit",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -970,7 +1049,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 279.0,
+	"side_bar_width": 196.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

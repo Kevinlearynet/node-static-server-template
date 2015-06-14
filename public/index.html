@@ -10,107 +10,111 @@
 	<h1>Segment Builder</h1>
 	<p class="lead">Create an manage custom segment rules for your audience(s).</p>
 		
-	<form id="segment-builder">
+	<form id="segment-builder" rv-class="data.formClass">
 
-		<!-- NEW "OR" RULE -->
-		<div class="add-ruleset">
-			<div class="bar">
-				<span class="button add">
-					<button data-segment-action="add" data-segment-operator="or">
-						<i class="ion-android-add-circle"></i>
-						<em>New Rule</em>
-					</button>
-				</span>
+		<!-- ANY or ALL -->
+		<div class="filter-row">
+			<div class="switch-wrapper">
+				<input id="any-all" type="checkbox" value="1">
 			</div>
 		</div>
 
-		<!-- TEMPLATE: New "or" ruleset -->
-		<div style="display:none" id="ruleset-clone-or" class="ruleset or">
-			<div class="sep"><span>or</span></div>
+		<div class="ruleset-container">
 
-			<div class="bar">
-				<span class="field">
-					<select name="criteria">
-						<option>Rule criteria&hellip;</option>
-						<option value="source">Current page source</option>
-						<option value="uri">URL</option>
-					</select>
-				</span>
+			<!-- TEMPLATE: Parent ruleset -->
+			<div class="ruleset" rv-data-id="rule.id" rv-data-operator="rule.operator" rv-each-rule="data.rules">
+				<div class="sep">
+					<span rv-if="data.matchTypeAll">and</span>
+					<span rv-if="data.matchTypeAny">or</span>
+				</div>
 
-				<span class="field">
-					<select class="small" name="" data-conditional-trigger>
-						<option value="contains">contains</option>
-						<option value="exactly">exactly</option>
-						<option value="regexp">RegExp</option>
-					</select>
-				</span>
+				<div class="bar">
+					<span class="field">
+						<select class="small" rv-if="data.fields.ruleType" data-rule-type="rule-type">
+							<option>Rule types&hellip;</option>
+							<optgroup rv-each-group="data.fields.ruleType" rv-label="group.name">
+								<option rv-each-option="group.options" rv-value="rule.ruleType">{ option.label }</option>
+							</optgroup>
+						</select>
+					</span>
 
-				<span class="field">
-					<input type="text" placeholder="Enter value" value="">
-				</span>
+					<span class="field">
+						<select class="small" rv-name="rule.operator">
+							<option rv-value="contains">contains</option>
+							<option rv-value="exactly">exactly</option>
+							<option rv-value="regexp">RegExp</option>
+						</select>
+					</span>
 
-				<span class="field" data-display-if="regexp" style="display:none">
-					<select class="small" name="">
-						<option value="">in selector</option>
-					</select>
-				</span>
+					<span class="field">
+						<input type="text" placeholder="Enter value" rv-value="rule.param">
+					</span>
 
-				<span class="field" data-display-if="regexp" style="display:none"><input type="text"></span>
+					<span class="button add">
+						<button rv-on-click="data.handlers.addChild">
+							<i class="ion-android-add-circle"></i>
+							<em rv-if="data.matchTypeAny">and</em>
+							<em rv-if="data.matchTypeAll">or</em>
+						</button>
+					</span>
+				</div>
 
-				<span class="button add">
-					<button data-segment-action="add" data-segment-operator="and">
-						<i class="ion-android-add-circle"></i>
-						<em>and</em>
+				<span class="button remove">
+					<button rv-on-click="data.handlers.removeParent">
+						<i class="ion-android-remove-circle"></i>
 					</button>
 				</span>
+
+				<!-- Child rules -->
+				<div class="ruleset child" rv-data-parent-id="rule.id" rv-data-id="child.id" rv-data-type="child.type" rv-data-operator="child.operator" rv-each-child="rule.children">
+					<div class="sep">
+						<i class="ion-funnel"></i>
+						<span rv-if="data.matchTypeAny">and</span>
+						<span rv-if="data.matchTypeAll">or</span>
+					</div>
+
+					<div class="bar">
+						<span class="field">
+							<select class="small" rv-if="data.fields.ruleType" data-rule-type="rule-type">
+								<option>Rule types&hellip;</option>
+								<optgroup rv-each-group="data.fields.ruleType" rv-label="group.name">
+									<option rv-each-option="group.options" rv-value="child.ruleType">{ option.label }</option>
+								</optgroup>
+							</select>
+						</span>
+
+						<span class="field">
+							<select class="small" rv-name="child.operator">
+								<option rv-value="contains">contains</option>
+								<option rv-value="exactly">exactly</option>
+								<option rv-value="regexp">RegExp</option>
+							</select>
+						</span>
+
+						<span class="field">
+							<input type="text" name="rule_value" placeholder="Enter value" rv-value="child.value">
+						</span>
+					</div>
+
+					<span class="button remove">
+						<button rv-on-click="data.handlers.removeChild">
+							<i class="ion-android-remove-circle"></i>
+						</button>
+					</span>
+				</div>
 			</div>
 
-			<span class="button remove">
-				<button data-segment-action="remove">
-					<i class="ion-android-remove-circle"></i>
-				</button>
-			</span>
-		</div>
-
-		<!-- TEMPLATE: New "and" ruleset -->
-		<div style="display:none" id="ruleset-clone-and" class="ruleset and" data-parent="">
-			<div class="sep"><span><i class="ion-funnel"></i> and</span></div>
-
-			<div class="bar">
-				<span class="field">
-					<select name="criteria">
-						<option>Rule criteria&hellip;</option>
-						<option value="source">Current page source</option>
-						<option value="uri">URL</option>
-					</select>
-				</span>
-
-				<span class="field">
-					<select class="small" name="" data-conditional-trigger>
-						<option value="contains">contains</option>
-						<option value="exactly">exactly</option>
-						<option value="regexp">RegExp</option>
-					</select>
-				</span>
-
-				<span class="field">
-					<input type="text" placeholder="Enter value" value="">
-				</span>
-
-				<span class="field" data-display-if="regexp" style="display:none">
-					<select class="small" name="">
-						<option value="">in selector</option>
-					</select>
-				</span>
-
-				<span class="field" data-display-if="regexp" style="display:none"><input type="text"></span>
+			<!-- Add parent rule -->
+			<div class="add-ruleset">
+				<div class="bar">
+					<span class="button add">
+						<button rv-on-click="data.handlers.addParent">
+							<i class="ion-android-add-circle"></i>
+							<em>New Rule</em>
+						</button>
+					</span>
+				</div>
 			</div>
-
-			<span class="button remove">
-				<button data-segment-action="remove">
-					<i class="ion-android-remove-circle"></i>
-				</button>
-			</span>
 		</div>
 
 	</form>
@@ -141,7 +145,11 @@
 	</form>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/watch/2.0.3/jquery.watch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/rivets/0.8.1/rivets.bundled.min.js"></script>
+<script src="/assets/jquery.switchButton.js"></script>
 <script src="/dist/interaction.js"></script>
 
 </body>
