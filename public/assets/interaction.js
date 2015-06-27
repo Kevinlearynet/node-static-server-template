@@ -6,7 +6,7 @@
 (function ($, rv) {
 
 	// options
-	var $parent = $('#segment-builder');
+	var $parent = $('#rulesetEditForm');
 
 	// data binding
 	rv.configure({
@@ -24,7 +24,7 @@
 				obj[keypath] = value;
 			}
 		}
-	})
+	});
 
 	var data = {
 		matchTypeAny: true,
@@ -87,7 +87,7 @@
 	}).on('change', function () {
 		var val = (!$(this).is(':checked')) ? 'all' : 'any';
 
-		// logic: "all"
+		// logic: 'all'
 		if (val === 'all') {
 			data.matchTypeAny = true;
 			data.matchTypeAll = false;
