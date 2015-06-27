@@ -12,6 +12,8 @@ body {
 }
 body {
   font-family: sans-serif;
+  border-top: 50px solid #292325;
+  padding-top: 0 !important;
 }
 .container {
   width: 980px;
