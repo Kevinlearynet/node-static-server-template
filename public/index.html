@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background:none;">
 <head>
 	<meta charset="UTF-8">
 	<title>Segment UI Prototype</title>
 	<link rel="stylesheet" href="/dist/style.css">
 </head>
-<body>
+<body style="background:none; border-top:none;">
 <div class="container">
 	<h1>Segment Builder</h1>
 	<p class="lead">Create an manage custom segment rules for your audience(s).</p>
 		
-	<form id="segment-builder" rv-class="data.formClass">
+	<form id="rulesetEditForm" rv-class="data.formClass">
 
 		<!-- ANY or ALL -->
 		<div class="filter-row">
@@ -120,10 +120,10 @@
 	</form>
 
 	<h2>Save Segment</h2>
-	<form id="save-segment">
+	<form id="editSegmentForm" style="margin-top: 0;">
 		<p><input type="text" placeholder="Name your segment"></p>
 		<p>
-			<label>Status:</label>
+			<label style="width:auto; padding-right:10px;">Status:</label>
 			<span class="option">
 				<input type="checkbox">
 				<label class="inline">Active</label>
@@ -139,8 +139,8 @@
 			</span>
 		</p>
 		<p class="submit">
-			<input type="submit" value="Save &amp; Add More" class="btn-primary">
-			<input type="submit" value="Save &amp; Continue" class="btn-secondary">
+			<input type="submit" value="Save &amp; Add More" style="background:green" class="btn-primary">
+			<input type="submit" value="Save &amp; Continue" style="background:rgba(0,0,0,0.1)" class="btn-secondary">
 		</p>
 	</form>
 </div>

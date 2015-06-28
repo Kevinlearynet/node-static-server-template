@@ -236,6 +236,7 @@ var RegisteredSegmentRules = [
 		getIsMatch: function(env) {},
 	}
 ];
+
 var SingleParameterView = Backbone.View.extend({
 	paramsOptional: false,
 	template: _.template(jQuery("#SingleParameterViewTemplate").html()),
@@ -277,6 +278,7 @@ var SingleParameterView = Backbone.View.extend({
 		}));
 	}
 });
+
 var PageContentView = SingleParameterView.extend({
 	template: _.template(jQuery("#PageContentViewTemplate").html()),
 	serialize: function(form) {
@@ -304,6 +306,7 @@ var PageContentView = SingleParameterView.extend({
 		return !isError;
 	},
 });
+
 var DayPartView = SingleParameterView.extend({
 	template: _.template(jQuery("#DayPartViewTemplate").html()),
 	serialize: function(form) {
@@ -326,15 +329,19 @@ var DayPartView = SingleParameterView.extend({
 		return !isError;
 	},
 });
+
 var SemcastListView = SingleParameterView.extend({
 	template: _.template(jQuery("#SemcastListViewTemplate").html()),
 });
+
 var DayOfWeekView = SingleParameterView.extend({
 	template: _.template(jQuery("#DayOfWeekViewTemplate").html()),
 });
+
 var JavascriptParameterView = SingleParameterView.extend({
 	template: _.template(jQuery("#JavascriptViewTemplate").html()),
 });
+
 var ClicksAdView = SingleParameterView.extend({
 	template: _.template(jQuery("#ClicksAdViewTemplate").html()),
 	serialize: function(form) {
@@ -344,8 +351,9 @@ var ClicksAdView = SingleParameterView.extend({
 			paramHref: $(form).find("[name='paramHref']").val(),
 			match_type_href: $(form).find("[name='match_type_href']").val(),
 		}
-	},
+	}
 });
+
 var AddEditRuleView = Backbone.View.extend({
 	template: _.template(jQuery("#AddEditViewTemplate").html()),
 	selectOptions: {},
@@ -401,6 +409,8 @@ var AddEditRuleView = Backbone.View.extend({
 		}
 	}
 });
+
+
 var RulesetView = Backbone.View.extend({
 	rulesetList: {
 		matchType: "ALL",
@@ -593,6 +603,7 @@ var RulesetView = Backbone.View.extend({
 		}
 	}
 });
+
 $(document).ready(function() {
 	var currentRules = {
 		"matchType": "ANY",
@@ -677,6 +688,7 @@ $(document).ready(function() {
 	} else {
 		$("#dpm_audiencebundle_customsegment_customExpireDays").parent().hide();
 	}
+
 	$("#dpm_audiencebundle_customsegment_customExpireDays").keydown(function(e) {
 		// Allow: backspace, delete, tab, escape, enter and .
 		if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
@@ -692,6 +704,7 @@ $(document).ready(function() {
 			e.preventDefault();
 		}
 	});
+
 	$("form").on("change", "#dpm_audiencebundle_customsegment_expireDays", function() {
 		if ($(this).val() == -10) {
 			$("#dpm_audiencebundle_customsegment_customExpireDays").parent().show();
@@ -700,6 +713,7 @@ $(document).ready(function() {
 		}
 		return false;
 	});
+
 	$("form").on("click", "[data-provide='toggle-advanced']", function() {
 		var span = $(this).find("span:first");
 		if (span.hasClass("glyphicon-chevron-down")) {
@@ -711,9 +725,11 @@ $(document).ready(function() {
 		}
 		return false;
 	});
+
 	if ($("#dpm_audiencebundle_customsegment_additionalImageUrlsToLoad").length || $("#dpm_audiencebundle_customsegment_additionalJavascriptUrlsToLoad").length || $("#dpm_audiencebundle_customsegment_additionalHtmlToLoad").length) {
 		$("[data-provide='toggle-advanced']").click();
 	}
+	
 	$('#updatePixelBanner button').on('click', function() {
 		var update_url = $('#updatePixelBanner').data("url");
 		var answer = confirm("Do you really want to update your live production pixel?");
