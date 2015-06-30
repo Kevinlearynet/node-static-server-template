@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"font-",
-				"font-style"
-			],
-			[
 				"margin",
 				"margin-left"
+			],
+			[
+				"font-",
+				"font-weight"
 			],
 			[
 				"text",
@@ -308,18 +308,26 @@
 	"buffers":
 	[
 		{
-			"file": "public/index.html",
+			"file": "public/assets/prototype.js",
 			"settings":
 			{
-				"buffer_size": 4841,
+				"buffer_size": 2075,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/assets/interaction.js",
+			"file": "public/integrated.html",
 			"settings":
 			{
-				"buffer_size": 2074,
+				"buffer_size": 10324,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 5034,
 				"line_ending": "Unix"
 			}
 		},
@@ -327,7 +335,7 @@
 			"file": "public/assets/style.less",
 			"settings":
 			{
-				"buffer_size": 5477,
+				"buffer_size": 6584,
 				"line_ending": "Unix"
 			}
 		}
@@ -339,10 +347,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "",
+		"height": 241.0,
+		"last_filter": "jshint",
 		"selected_items":
 		[
+			[
+				"jshint",
+				"JSHint: Set Plugin Options"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -396,7 +408,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 538.0
+		"width": 457.0
 	},
 	"console":
 	{
@@ -418,13 +430,19 @@
 	"expanded_folders":
 	[
 		"/Users/kevinleary/Sites/prototypes.audience360.com",
-		"/Users/kevinleary/Sites/prototypes.audience360.com/public/.codekit-cache",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/public",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/public/.codekit-cache"
 	],
 	"file_history":
 	[
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets/existing-updated.js",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets/existing.js",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/existing.html",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets/interaction.js",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/index.html",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets/data.js",
+		"/Users/kevinleary/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets/data.json",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets/jquerymy-1.1.4.min.js",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/public/assets/rivets.bundled.js",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/editor.sublime-project",
@@ -444,7 +462,6 @@
 		"/Users/kevinleary/Sites/prototypes.audience360.com/package.json",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/readme.md",
 		"/Users/kevinleary/Sites/prototypes.audience360.com/.gitingore",
-		"/Users/kevinleary/Sites/prototypes.audience360.com/public/index.html",
 		"/Users/kevinleary/Sites/amzn-reviews/public/index.html",
 		"/Users/kevinleary/Sites/amzn-reviews/public/output/reviewer-report-B00TSSDLGK.json",
 		"/Users/kevinleary/Sites/amzn-reviews/server.js",
@@ -481,7 +498,6 @@
 		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/content-none.php",
 		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/less/flexslider.less",
 		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/assets/js/customizer.js",
-		"/Users/kevinleary/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
 		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet/style.css",
 		"/Users/kevinleary/Sites/clients-vvv/www/vvv-hosts",
 		"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-config.php",
@@ -546,12 +562,7 @@
 		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/assets/lib/smooth-scroll/.bower.json",
 		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/dist/theme.min.js",
 		"/Users/kevinleary/Sites/clients-vvv/www/missiongrammar.dev/wp-content/themes/missiongrammar/.bowerrc",
-		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/js/global.js",
-		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/includes/acf.php",
-		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/less/style.less",
-		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/less/plugins.less",
-		"/Users/kevinleary/Dropbox/Work/Projects/citizens.sublime-project",
-		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/functions.php"
+		"/Users/kevinleary/Sites/clients-vvv/www/citizenschools.dev/wp-content/themes/citizenschools/js/global.js"
 	],
 	"find":
 	{
@@ -562,6 +573,7 @@
 		"height": 103.0,
 		"where_history":
 		[
+			"<current file>",
 			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet,*.php",
 			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet",
 			"/Users/kevinleary/Sites/clients-vvv/www/dartmouthprc.dev/wp-content/themes/kevinlearynet,*.less",
@@ -688,143 +700,142 @@
 			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013",
 			"~/Dropbox/Work/Sites/openviewvc.dev/content/themes/openviewpartners-2013,*.php",
 			"~/Dropbox/Work/Sites/openviewvc.dev,*.php",
-			"~/Dropbox/Work/Sites/openviewvc.dev",
-			""
+			"~/Dropbox/Work/Sites/openviewvc.dev"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
-			"addChild",
-			"anyLogic",
-			"allLogic",
-			"anyLogic",
-			"group",
-			"type",
-			"each",
-			"data.handlers",
-			"data.handlers.add",
-			"data.childHandlers",
-			"click",
-			"data.parent.",
-			"data.child",
-			"splice",
-			"id",
-			"'id'",
-			"rv-data-type=\"child.type\" ",
-			"id",
-			"on-click",
-			"rule",
-			"this",
-			"scope",
-			".ruleset",
-			"type",
-			"model",
-			"model.rules[parentID]",
-			"$parent",
-			"id",
-			"em",
-			"span",
-			".and",
-			"rule.",
-			"rule",
-			"-1",
-			"data.",
 			"data",
-			"rule.",
-			"filter",
-			"filters",
-			"button",
-			"data-remove-rule",
-			"obj",
-			"arguments",
-			"key",
-			"operator",
-			" style=\"display:none\"",
-			"span",
-			"em",
-			"or",
-			".sep",
-			"operator",
-			"span",
-			"funnel",
-			"\"",
-			".switch-button-label",
-			"https:",
-			"any-all",
-			"\"",
-			"switch",
-			"prototype",
-			"header",
-			"var id",
-			"data-ruleset-id",
-			"$conditionalFields",
-			"$additionalFields",
-			"targetSelector",
-			"field display-if-regexp",
-			"field-addition",
-			"$criteria",
-			"data-segment-conditional=\"criteria\"",
-			"name=\"\"  data-segment-conditional=\"criteria",
-			" name=\"operator\"",
-			"<select class=\"small\" name=\"operator\">",
-			"name=\"operator\">",
-			" data-segment-conditional=\"criteria\"",
-			"<select name=\"\">",
-			"in selector",
-			"for=\"\" ",
-			"button",
-			"is",
-			"Create rule from",
-			"add-new",
+			"rivets",
+			"save-segment",
+			"segment-builder",
+			"#segment-builder",
 			"add-ruleset",
-			" name=\"\" id=\"\">",
-			"last",
-			"Create rule based on",
-			"Choose Criteria&hellip;",
-			"<select name=\"\">\n					<option value=\"\">Current page source</option>\n				</select>",
-			"<option value=\"\">Current page source</option>",
-			"remove-or",
-			"remove-and",
-			"$removeOr",
-			"data-segment-action=\"add-or\"",
-			"data-segment-action=\"add-or\">",
-			"data-segment-action=\"add-and\"",
-			"$addAnd",
-			"\"",
-			"has-and",
-			" has-and",
-			"has-and",
-			".clone",
+			"rulesetList",
+			"ruleset-index",
+			"UserClickAd",
+			"segmentRules",
+			"RegisteredSegmentRules",
+			"rulesets",
+			"rulesetList",
+			"rulesetList.rulesets",
+			"ruleset-index",
+			"addEditRule",
+			"getIsMatch",
+			"getReadableStringMatch",
+			"addEditRule",
+			"rulesetList",
+			"getReadableView",
+			"ruleset-edit-target",
+			"addEditRule",
+			"add-rule",
+			"closeRuleForm",
+			"addEditRuleTarget",
+			"addEditRule",
+			"add-rule",
+			"getReadable\ngetReadable",
+			"getReadable",
+			"rulesetList",
+			"ruleset-edit-target",
+			"save",
+			"});",
+			"ClicksAdViewTemplate",
+			".sep",
+			"#F5F5F5",
 			"sep",
-			"transDur",
-			"<select name=\"\" id=\"\">",
-			"$addAnd",
-			"', $(this).selector",
-			"$removeOr",
-			"$addAndBtn",
-			"$removeBtn",
-			"data-segment-action=\"remove\"",
-			"data-segment-action=\"addAnd\"",
-			"<span class=\"button add\">\n				<button>",
-			"remove",
-			"data-button",
-			"<button>\n				<i class=\"ion-android-remove-circle",
-			".and",
-			"<em>and</em>",
-			"and",
-			".add",
-			"<span>and",
-			".and",
-			"add",
-			"top:",
-			".ruleset.and",
-			"<select name=\"\" id=\"\">\n					<option value=\"\">contains</option>",
-			"<select name=\"\" id=\"\">\n					<option value=\"\">in selector</option>",
-			"class=\"ruleset\"",
-			"and"
+			"copy",
+			"switch-wrapper",
+			"any-all",
+			"current",
+			"30px 0 0",
+			"click [data-provide='toggle-all-match-type']",
+			"'",
+			"rgba(0,0,0,0.1)",
+			"#aaa",
+			"switch-button-background",
+			"$parent",
+			"switch-wrapper",
+			"btn",
+			"class=\"form-control\" ",
+			"class=\"form-control\"",
+			"option",
+			"save-segment",
+			"editSegmentForm",
+			"div",
+			"btn ",
+			"btn-primary",
+			"div",
+			"className",
+			"classname",
+			"glyph",
+			"<span class=\"glyphicon glyphicon-refresh\"></span>",
+			"glyph",
+			"<span class=\"glyphicon glyphicon-share-alt\"></span>",
+			"glyph",
+			"<span class=\"glyphicon glyphicon-pencil\"></span>",
+			"<span class=\"glyphicon glyphicon-remove\"></span>",
+			"glyph",
+			"'",
+			"add rule",
+			"<span class=\"glyphicon glyphicon-question-sign\" style=\"\"></span>",
+			"glyphicon glyphicon-question-sign",
+			"...",
+			"\n										</option>",
+			"\">\n											",
+			"</li>",
+			"<li>\n					<a",
+			"view-source:https:",
+			"view-source:https",
+			"href=\"",
+			"rel=\"stylesheet\" ",
+			"Copy to New Segment ",
+			").val()",
+			"dpm_audiencebundle_customsegment_additionalImageUrlsToLoad",
+			"loader",
+			"&lt;img",
+			"script> <script",
+			"        <% ",
+			"        <% if ",
+			"semcastNamedLists",
+			"segmentBuilder",
+			"script> <script",
+			"_renderDataSidebarMenu",
+			"'",
+			"[\"match_type_href\"]",
+			"[\"paramHref\"]",
+			"[\"match_type\"]",
+			"[\"param\"]",
+			"'",
+			"			break;\n",
+			"\"",
+			"ruleType",
+			"rule.ruleType",
+			"!",
+			"page depth",
+			"				'getIsMatch': function(env) {},\n",
+			"fields",
+			"Rule Type",
+			"				break;\n",
+			"\"",
+			"; break;",
+			": return ",
+			"['paramHref']",
+			"['match_type_href']",
+			"['match_type']",
+			"['param']",
+			"data.",
+			"},\n	/** ",
+			"  '",
+			"'User's",
+			"'paramOptional:",
+			"paramOptional",
+			"\"",
+			"false",
+			"'getIsMatch: ",
+			"'getReadable: "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -832,6 +843,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			".match_type_href",
+			".paramHref",
+			"<current file>\n.match_type\n.paramHref",
+			".match_type",
+			".param",
+			"'",
 			"<li rv-each-item=\"page.submenu.items\" rv-class=\"item.class\">",
 			"@breakpoint-md",
 			"@breakpoint-xs",
@@ -877,48 +894,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "public/index.html",
+					"file": "public/assets/prototype.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4841,
+						"buffer_size": 2075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								341,
-								341
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 3.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/assets/interaction.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2074,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								202,
-								202
+								2040,
+								1983
 							]
 						],
 						"settings":
@@ -930,24 +918,83 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "public/assets/style.less",
+					"buffer": 1,
+					"file": "public/integrated.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5477,
+						"buffer_size": 10324,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1195,
-								1195
+								10207,
+								10027
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2626.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/assets/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2555,
+								2555
 							]
 						],
 						"settings":
@@ -955,11 +1002,11 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 828.0,
+						"translation.x": -0.0,
+						"translation.y": 2447.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
