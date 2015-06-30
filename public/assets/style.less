@@ -99,7 +99,6 @@ h2 {
 
 // segment builder form
 #segment-builder {
-	margin-top: 30px;
 	opacity: 0;
 	transition: opacity 150ms ease-in-out 75ms;
 	&.ready {
@@ -109,9 +108,10 @@ h2 {
 
 // parent ruleset rows
 .ruleset-container {
-	padding-right: 30px;
+	padding: 30px;
+	background: white;
+	border-radius: 3px;
 	> .ruleset {
-		margin-top: 10px;
 
 		// hide separator for first row
 		&[data-id="0"] {
@@ -123,17 +123,24 @@ h2 {
 	position: relative;
 	> .button {
 		position: absolute;
-		right: -35px;
-		top: 27px;
+		right: -23px;
+		top: 42px;
 	}
 	&[data-id="0"] > .button {
-		top: 9px;
+		top: 23px;
 	}
 	.bar {
-		padding: 10px 15px;
+		padding: 10px 15px 15px;
 		background: @light-bg;
+		position: relative;
 		.clearfix();
 		.border-radius( 4px );
+		.add {
+			position: absolute;
+			right: 15px;
+			top: 50%;
+			margin-top: -12px;
+		}
 	}
 	input[type="text"] {
 		padding: 6px 6px 4px;
@@ -146,7 +153,7 @@ h2 {
 .ruleset.child {
 	margin: 6px 0 0 30px;
 	> .button {
-		top: 32px;
+		top: 42px;
 		right: 15px;
 	}
 	.sep {
@@ -170,7 +177,6 @@ h2 {
 // "or" add new row
 .add-ruleset {
 	text-align: center;
-	margin: 20px 0 0;
 	.bar {
 		background-color: transparent;
 		border: 3px dashed rgba(0,0,0,0.1);
@@ -186,12 +192,28 @@ h2 {
 		}
 	}
 }
+.ruleset + .add-ruleset {
+	margin-top: 20px;
+}
 
 // inline form field
 .field {
 	display: inline-block;
 	+ .field {
 		margin-left: 15px;
+	}
+	label {
+		display: block;
+		font-size: 11px;
+		text-transform: uppercase;
+		margin: 0 0 4px;
+	}
+	.btn {
+		background-color: rgba(0,0,0,0.1);
+		padding: 5px 7px 4px;
+		font-size: 11px;
+		line-height: 100%;
+		font-weight: bold;
 	}
 }
 
@@ -218,6 +240,9 @@ h2 {
 
 // save segment form
 #editSegmentForm {
+	padding: 30px;
+	background: #bbb;
+	border-radius: 3px;
 	p {
 		margin: 0;
 		font-size: 13px;
@@ -268,6 +293,9 @@ h2 {
 			margin-left: 5px;
 		}
 	}
+	.btn-secondary {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
 }
 
 // forms elements
@@ -298,11 +326,6 @@ select {
 	&.small {
 		width: 8em;
 	}
-}
-
-input[type="text"], textarea, input[type="file"] {
-	background-color: #fff;
-	.box-shadow( inset 0 1px 2px #aaa );
 }
 
 textarea {
@@ -419,16 +442,5 @@ input[type="submit"], button, input[type="button"] {
 		+ input[type="submit"] {
 			margin-left: 10px;
 		}
-	}
-}
-
-/*------------------------------------------------------------------------------
-  Existing elements from UI
-------------------------------------------------------------------------------*/
-
-#editSegmentForm {
-	margin: 50px 0 0;
-	h2 {
-
 	}
 }

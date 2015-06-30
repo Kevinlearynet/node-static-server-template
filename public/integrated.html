@@ -62,8 +62,8 @@
 						<div id="ruleset-edit-target"></div>
 
 						<span class="field">
+							<label>Rule type</label>
 							<select class="small" rv-if="data.fields.ruleType" data-rule-type="rule-type">
-								<option>Rule types&hellip;</option>
 								<optgroup rv-each-group="data.fields.ruleType" rv-label="group.name">
 									<option rv-each-option="group.options" rv-value="rule.ruleType">{ option.label }</option>
 								</optgroup>
@@ -71,6 +71,7 @@
 						</span>
 
 						<span class="field">
+							<label>Match type</label>
 							<select class="small" rv-name="rule.operator">
 								<option rv-value="contains">contains</option>
 								<option rv-value="exactly">exactly</option>
@@ -79,7 +80,23 @@
 						</span>
 
 						<span class="field">
-							<input type="text" placeholder="Enter value" rv-value="rule.param">
+							<label>Enter value</label>
+							<input type="text" rv-value="rule.param">
+						</span>
+
+						<span class="field">
+							<label>Search query</label>
+							<input type="text" rv-value="rule.param">
+						</span>
+
+						<span class="field">
+							<label>jQuery Selector</label>
+							<code class="field-before">$('</code><input type="text" rv-value="rule.param"><code class="field-after">')</code>
+						</span>
+
+						<span class="field">
+							<label>Javascript to Evaluate</label>
+							<a href="#dialog" class="btn btn-small">Open Editor</a>
 						</span>
 
 						<span class="button add">
@@ -107,16 +124,17 @@
 
 						<div class="bar">
 							<span class="field">
+								<label>Rule type</label>
 								<select class="small" rv-if="data.fields.ruleType" data-rule-type="rule-type">
-									<option>Rule types&hellip;</option>
 									<optgroup rv-each-group="data.fields.ruleType" rv-label="group.name">
-										<option rv-each-option="group.options" rv-value="child.ruleType">{ option.label }</option>
+										<option rv-each-option="group.options" rv-value="rule.ruleType">{ option.label }</option>
 									</optgroup>
 								</select>
 							</span>
 
 							<span class="field">
-								<select class="small" rv-name="child.operator">
+								<label>Match type</label>
+								<select class="small" rv-name="rule.operator">
 									<option rv-value="contains">contains</option>
 									<option rv-value="exactly">exactly</option>
 									<option rv-value="regexp">RegExp</option>
@@ -124,7 +142,31 @@
 							</span>
 
 							<span class="field">
-								<input type="text" name="rule_value" placeholder="Enter value" rv-value="child.value">
+								<label>Enter value</label>
+								<input type="text" rv-value="rule.param">
+							</span>
+
+							<span class="field">
+								<label>Search query</label>
+								<input type="text" rv-value="rule.param">
+							</span>
+
+							<span class="field">
+								<label>jQuery Selector</label>
+								<code class="field-before">$('</code><input type="text" rv-value="rule.param"><code class="field-after">')</code>
+							</span>
+
+							<span class="field">
+								<label>Javascript to Evaluate</label>
+								<a href="#dialog" class="btn btn-small">Open Editor</a>
+							</span>
+
+							<span class="button add">
+								<button rv-on-click="data.handlers.addChild">
+									<i class="ion-android-add-circle"></i>
+									<em rv-if="data.matchTypeAny">and</em>
+									<em rv-if="data.matchTypeAll">or</em>
+								</button>
 							</span>
 						</div>
 
@@ -148,15 +190,11 @@
 					</div>
 				</div>
 			</div>
-
 		</form>
-
+		
+		<h2>Save Segment</h2>
+		<p class="alert alert-success text-center" data-provide="form-success" style="display: none">Your changes were successfully saved.</p>
 		<form id="editSegmentForm" method="post" name="editSegmentForm">
-			<h2>Save Segment</h2>
-
-			<p class="alert alert-success text-center" data-provide="form-success" style="display: none">
-				Your changes were successfully saved.
-			</p>
 			<p>
 				<label class="required" for="dpm_audiencebundle_customsegment_name">Name</label>
 				<input id="dpm_audiencebundle_customsegment_name" name="dpm_audiencebundle_customsegment[name]" required="required" type="text" value="Copy-of-iNET HostingCon Global - WHT Qualified" placeholder="Name your segment">
