@@ -4,8 +4,8 @@ Run a static HTTP server locally on a specified domain host.
 
 ## Setup
 
-1. Clone the repository to your machine: `git clone git@github.com:Kevinlearynet/node-static-server-template.git ~/Sites/node-static-server-template`
-1. Move into your install directory: `cd ~/Sites/node-static-server-template`
+1. Clone the repository to your machine: `git clone git@github.com:Kevinlearynet/node-static-server-template.git`
+1. Move into your install directory: `cd node-static-server-template`
 1. Install package dependencies: `npm install`
 
 ## Start the server
