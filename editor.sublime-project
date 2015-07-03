@@ -2,11 +2,11 @@
 	"folders":
 	[
 		{
-			"name": "ROOT",
+			"name": "root",
 			"path": "./"
 		},
 	{
-			"name": "PUBLIC",
+			"name": "public",
 			"path": "./public"
 		}
 	]

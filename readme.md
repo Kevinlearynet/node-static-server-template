@@ -1,21 +1,19 @@
-# Segments prototype
+# Static HTTP Server
+
+Run a static HTTP server locally on a specified domain host. 
 
 ## Setup
 
-1. Clone the repo
-1. Run `npm install`
-1. Run `npm start`
-1. Open [localhost:8080](http://localhost:8080)
+1. Clone the repository to your machine: `git clone git@github.com:Kevinlearynet/node-static-server-template.git ~/Sites/node-static-server-template`
+1. Move into your install directory: `cd ~/Sites/node-static-server-template`
+1. Install package dependencies: `npm install`
+
+## Start the server
+
+1. In the terminal run the command `npm start`
+1. Open [http://localhost:8080](http://localhost:8080) in your browser
 
 ## Notes
 
-* Prototype is available online at [dry-dawn-2805.herokuapp.com](https://dry-dawn-2805.herokuapp.com/) (Heroku free teir spins up slow)
 * Static files are served from `./public/` directory
-* Uses [Rivets.js](http://rivetsjs.com/) for data binding
-
-## For discussion / need help
-
-* Consolidating `/segment/` and `/segment/new/` into a single view
-* Handling conditional form logic when we have more than one segment editor form visible at a given time
-* Replace the "getReadable" method with inline form fields that are always editable (opposed to one at a time)
-* Removing the edit/save and single form approach to use a series of replicated forms
+* Uses the `http-server` project
