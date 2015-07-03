@@ -8,12 +8,12 @@ Run a static HTTP server locally on a specified domain host.
 1. Move into your install directory: `cd node-static-server-template`
 1. Install package dependencies: `npm install`
 
-## Start the server
+## Start
 
 1. In the terminal run the command `npm start`
 1. Open [http://localhost:8080](http://localhost:8080) in your browser
 
-## Gulp routines
+## Gulp
 
 A few gulp routines are included for compiling and building resources in the `./working/` directory.
 
