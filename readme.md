@@ -13,6 +13,15 @@ Run a static HTTP server locally on a specified domain host.
 1. In the terminal run the command `npm start`
 1. Open [http://localhost:8080](http://localhost:8080) in your browser
 
+## Gulp routines
+
+A few gulp routines are included for compiling and building resources in the `./working/` directory.
+
+* Concatenating, compiling and minifying LESS into CSS
+* Concatenating, compiling and minifying JS
+
+Gulp's `watch` command is used to compile on the fly while working. To turn on the watch routines use the command `gulp`.
+
 ## Notes
 
 * Static files are served from `./public/` directory
