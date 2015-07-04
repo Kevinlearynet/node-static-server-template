@@ -1,4 +1,4 @@
-# Static HTTP Server
+# Simple Static Node.js HTTP Server
 
 Run a static HTTP server locally on a specified domain host. 
 
